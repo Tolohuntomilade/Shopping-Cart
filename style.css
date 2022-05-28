@@ -2,5 +2,42 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100v;
+}
+
+/*Nav-bar section*/
+.bar{
+    background-color:#ECE3DE !important;
+}
+.nav-link:hover{
+    color: crimson !important;
+}
+.shop-nav{
+    color: brown;
+}
+.nav-body{
+    display: flex;
+    justify-content: end !important;
+}
+.log-in{
+    margin-left: 700px;
+    cursor: pointer;
+}
+/* End of Nav-bar */
+
+/* Section-two */
+.section-2{
+    background-color: black !important;
+}
+/*End of Section-two */
+@media (max-width:1300px){
+    .nav-body{
+        display: none;
+    }
+    .log-in{
+        display: none;
+    }
 }
