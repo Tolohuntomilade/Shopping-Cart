@@ -7,7 +7,6 @@ body{
     height: 100vh;
     width: 100v;
 }
-
 /*Nav-bar section*/
 .bar{
     background-color:#ECE3DE !important;
@@ -29,9 +28,24 @@ body{
 /* End of Nav-bar */
 
 /* Section-two */
-.section-2{
-    background-color: black !important;
+.section-two{
+    margin-top: 150px;
 }
+.header{
+    letter-spacing: 5px;
+    font-size: 50px;
+}
+.feat{
+    text-decoration: none;
+}
+.feat:hover{
+    color: #AD6342;
+    text-decoration:underline;
+}
+.bi-bag-plus-fill{
+    cursor: pointer;
+}
+  
 /*End of Section-two */
 @media (max-width:1300px){
     .nav-body{
