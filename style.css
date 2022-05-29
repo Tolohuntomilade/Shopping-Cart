@@ -45,7 +45,7 @@ body{
 .bi-bag-plus-fill{
     cursor: pointer;
 }
-  
+
 /*End of Section-two */
 @media (max-width:1300px){
     .nav-body{
@@ -54,4 +54,24 @@ body{
     .log-in{
         display: none;
     }
+}
+
+/* Footer */
+footer {
+    background-color: #FCF6F2;
+}
+
+#colFormLabelSm {
+    border: 3px solid #ad6243;
+    border-radius: 0;
+}
+
+
+input.rounded-0 {
+    background-color: #ad6243;
+    color: #FCF6F2;
+}
+
+.bottom-bar {
+    background-color: #5d6857;
 }
