@@ -171,6 +171,10 @@ color: white;
     }
 }
 
+.product-img:hover {
+    cursor: pointer;
+}
+
 /* Product Page */
 #product-img {
     padding: 0 !important;

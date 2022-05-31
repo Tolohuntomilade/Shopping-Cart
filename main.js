@@ -1,3 +1,6 @@
+// import { generateProductData } from './product-data.js';
+
+
 //Cart
 let cartIcon=document.querySelector("#cart-icon");
 let cart=document.querySelector(".cart");
@@ -27,17 +30,20 @@ else{
     ready();
 }
 
-// Product Page
-let productDetails = document.getElementById('show-product-details');
+// Go to product detail page
+let productImage = document.querySelectorAll(".product-img");
 
-let productData = [{
-    id: "hhe764ok",
-    name: "Classic Cotton Tee",
-    price: 5,
-    desc: "I'm a product description",
-    img: "asset/pic-9B.webp"
-    },
-];
+productImage.onclick = () => {
+    location.href = "product-page.html";
+
+}
+// Product Image
+// productImage.onclick = () => {
+//     document.innerHTML = ""
+// }
+
+// Product Details Page
+let productDetails = document.getElementById('show-product-details');
 
 let showProductDetails = () => {
     return (productDetails.innerHTML = `
@@ -129,13 +135,6 @@ let showProductDetails = () => {
 }
 
 showProductDetails();
-
-// Product Image
-productImage.onclick = () => {
-    document.innerHTML = ""
-}
-
-
 
 
 
